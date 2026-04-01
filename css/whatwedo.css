@@ -17,6 +17,8 @@ body {
 }
 
 .second-header-container {
+    width: min(1150px, 92%);
+    margin: 0 auto;
     min-height: 88px;
     display: flex;
     align-items: center;
