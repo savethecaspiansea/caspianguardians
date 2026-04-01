@@ -334,6 +334,7 @@ img {
         padding: 24px;
     }
 }
+
 .TimeLine {
     margin-top: 100px;
     position: relative;
@@ -355,6 +356,7 @@ img {
     opacity: 1;
     transition: opacity 0.8s ease-in-out;
     will-change: opacity;
+    pointer-events: none;
 }
 
 .BackroundTL--top {
@@ -370,6 +372,7 @@ img {
         rgba(8, 16, 34, 0.25),
         rgba(8, 16, 34, 0.35)
     );
+    pointer-events: none;
 }
 
 .TimeLine-content {
