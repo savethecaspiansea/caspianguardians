@@ -526,3 +526,7 @@ body {
     padding: 36px 22px;
   }
 }
+
+.header-inner b {
+  color: rgb(8, 255, 8);
+}
