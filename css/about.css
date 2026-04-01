@@ -286,3 +286,32 @@ img {
     justify-content: center;
   }
 }
+
+@media (max-width: 900px) {
+    .header-container,
+    .hero-content,
+    .activityhub {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .top-buttons {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-container {
+        min-height: auto;
+        padding: 16px 0;
+    }
+
+    .logo-text {
+        font-size: 1.05rem;
+    }
+
+    .top-buttons a {
+        font-size: 0.95rem;
+        padding: 9px 14px;
+    }
+}
