@@ -357,6 +357,9 @@ img {
     transition: opacity 0.8s ease-in-out;
     will-change: opacity;
     pointer-events: none;
+    pointer-events: none;
+    will-change: opacity;
+    transition: opacity 0.6s ease;
 }
 
 .BackroundTL--top {
