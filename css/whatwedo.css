@@ -3,7 +3,69 @@
   margin: 0;
   padding: 0;
 }
+.second-header {
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+}
 
+.second-header-container {
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.second-logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+}
+
+.second-logo img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.second-logo-text {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.second-top-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-top-buttons a {
+    color: #dbe4f0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: 999px;
+    transition: all 0.25s ease;
+}
+
+.second-top-buttons a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.second-top-buttons a.active-second-button {
+    color: #ffffff;
+    background-color: #2f80ed;
+    box-shadow: 0 8px 24px rgba(47, 128, 237, 0.28);
+}
 body {
   font-family: Arial, sans-serif;
   background: #f4f8f7;
