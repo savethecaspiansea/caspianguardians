@@ -28,7 +28,6 @@ img {
     margin: 0 auto;
 }
 
-/* Header */
 .site-header {
     background: linear-gradient(135deg, #0d1b2a, #1b263b);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -93,7 +92,6 @@ img {
     box-shadow: 0 8px 24px rgba(47, 128, 237, 0.28);
 }
 
-/* Hero */
 .hero-section {
     padding: 72px 0 56px;
     background:
@@ -199,7 +197,6 @@ img {
     box-shadow: 0 24px 60px rgba(15, 23, 42, 0.24);
 }
 
-/* Section title */
 .section-title {
     padding-top: 24px;
 }
@@ -215,7 +212,6 @@ img {
     letter-spacing: 0.5px;
 }
 
-/* Activity section */
 .activity-section {
     padding: 48px 0 80px;
 }
@@ -281,7 +277,6 @@ img {
     color: #dbe4f0;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
     .header-container,
     .hero-content,
@@ -339,6 +334,7 @@ img {
         padding: 24px;
     }
 }
+.TimeLine {
     margin-top: 100px;
     position: relative;
     width: 100%;
