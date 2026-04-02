@@ -3,7 +3,7 @@ const newsData = [
         id: 1,
         title: "Caspian Guardians Launches Official Telegram Community",
         date: "01.04.2026",
-        category: "Uptade",
+        category: "Update",
         image: "img/news/Telegram.webp",
         featured: false,
         text: `
@@ -23,7 +23,7 @@ Join the conversation and become part of the movement.</p>
         id: 2,
         title: "Caspian Guardians Introduces News Section on the Official Website",
         date: "02.04.2026",
-        category: "Uptade",
+        category: "Update",
         image: "img/news/Screenshot (1259).png",
         featured: true,
         text: `
