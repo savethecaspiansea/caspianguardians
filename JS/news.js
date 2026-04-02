@@ -5,7 +5,7 @@ const newsData = [
         date: "01.04.2026",
         category: "Uptade",
         image: "img/news/Telegram.webp",
-        featured: true,
+        featured: false,
         text: `
             <p>Caspian Guardians is pleased to announce the launch of its official Telegram community — a new digital space designed to bring together members, partners, and supporters of the initiative.
 
@@ -24,10 +24,10 @@ Join the conversation and become part of the movement.</p>
         title: "Caspian Guardians Introduces News Section on the Official Website",
         date: "2.04.2026",
         category: "Uptade",
-        image: "img/news/news-2.jpg",
-        featured: false,
+        image: "img/news/Screenshot (1259).png",
+        featured: true,
         text: `
-            <p>TCaspian Guardians is proud to announce the launch of a dedicated News section on its official website.
+            <p>Caspian Guardians is proud to announce the launch of a dedicated News section on its official website.
 
 This new section will serve as a reliable source of timely updates, key announcements, and insights related to the team’s activities and ongoing initiatives. It is designed to keep the community, partners, and stakeholders informed about the latest developments and milestones.
 
@@ -36,7 +36,7 @@ By introducing this feature, Caspian Guardians continues to strengthen transpare
 Stay informed. Stay connected with Caspian Guardians.</p>
         `,
         gallery: [
-            "img/news/gallery-6.jpg",
+            "img/news/Screenshot (1259).png",
         ]
     },
 ];
