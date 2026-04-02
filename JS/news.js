@@ -1,116 +1,44 @@
 const newsData = [
     {
         id: 1,
-        title: "New field expedition launched to document Caspian coastal ecosystems",
-        date: "02.04.2026",
-        category: "Research",
-        image: "img/news/news-1.jpg",
+        title: "Caspian Guardians Launches Official Telegram Community",
+        date: "01.04.2026",
+        category: "Uptade",
+        image: "img/news/Telegram.webp",
         featured: true,
         text: `
-            <p>A new field expedition has been launched as part of the Caspian Guardians project to document the current condition of coastal ecosystems connected to the Caspian Sea. The expedition focuses on environmental observation, shoreline documentation, and visual data collection.</p>
+            <p>Caspian Guardians is pleased to announce the launch of its official Telegram community — a new digital space designed to bring together members, partners, and supporters of the initiative.
 
-            <p>The team is visiting selected coastal locations in order to gather photographic materials, field notes, and observational data that can later support awareness work, educational materials, and further research-oriented publication.</p>
+The community will serve as a central hub for updates, discussions, and collaboration. Participants will gain direct access to project news, insights, and opportunities to engage with the team and like-minded individuals.
 
-            <p>This stage of the project is especially important because it connects visual storytelling with environmental documentation. The resulting material will be used both in the news section and in future project resources.</p>
+This launch marks an important step in strengthening communication and fostering a more connected and active ecosystem around Caspian Guardians.
 
-            <p>Additional images from the expedition are available in the gallery below.</p>
+Join the conversation and become part of the movement.</p>
         `,
         gallery: [
-            "img/news/gallery-1.jpg",
-            "img/news/gallery-2.jpg",
-            "img/news/gallery-3.jpg",
-            "img/news/gallery-4.jpg",
-            "img/news/gallery-5.jpg"
+            "img/news/tgcg.jpg"
         ]
     },
     {
         id: 2,
-        title: "Project media archive expanded with new coastline materials",
-        date: "29.03.2026",
-        category: "Archive",
+        title: "Caspian Guardians Introduces News Section on the Official Website",
+        date: "2.04.2026",
+        category: "Uptade",
         image: "img/news/news-2.jpg",
         featured: false,
         text: `
-            <p>The project media archive has been expanded with new visual materials collected during recent field activity. These include updated coastline photographs, landscape observations, and additional image references for future articles.</p>
+            <p>TCaspian Guardians is proud to announce the launch of a dedicated News section on its official website.
 
-            <p>The archive is being structured to support both educational content and public communication about environmental change in the Caspian region.</p>
+This new section will serve as a reliable source of timely updates, key announcements, and insights related to the team’s activities and ongoing initiatives. It is designed to keep the community, partners, and stakeholders informed about the latest developments and milestones.
+
+By introducing this feature, Caspian Guardians continues to strengthen transparency and communication, ensuring that important information is easily accessible to everyone.
+
+Stay informed. Stay connected with Caspian Guardians.</p>
         `,
         gallery: [
             "img/news/gallery-6.jpg",
-            "img/news/gallery-7.jpg",
-            "img/news/gallery-8.jpg"
         ]
     },
-    {
-        id: 3,
-        title: "New analytical article prepared on visible shoreline change",
-        date: "25.03.2026",
-        category: "Analysis",
-        image: "img/news/news-3.jpg",
-        featured: false,
-        text: `
-            <p>A new long-form analytical article has been prepared to discuss visible shoreline change and how visual comparison can support public understanding of the Caspian Sea crisis.</p>
-
-            <p>The article combines descriptive observations, project commentary, and field-based examples to present recent developments in an accessible format.</p>
-        `,
-        gallery: [
-            "img/news/gallery-9.jpg",
-            "img/news/gallery-10.jpg"
-        ]
-    },
-    {
-        id: 4,
-        title: "Caspian Guardians prepares new educational visual materials",
-        date: "21.03.2026",
-        category: "Project",
-        image: "img/news/news-4.jpg",
-        featured: false,
-        text: `
-            <p>The team is preparing a new set of educational and visual materials designed to support outreach, awareness campaigns, and project communication. These materials will be adapted for website publication and presentation use.</p>
-
-            <p>The goal is to make environmental information more understandable and more visually engaging for visitors.</p>
-        `,
-        gallery: [
-            "img/news/gallery-11.jpg",
-            "img/news/gallery-12.jpg",
-            "img/news/gallery-13.jpg"
-        ]
-    },
-    {
-        id: 5,
-        title: "Interactive news format with image gallery introduced",
-        date: "17.03.2026",
-        category: "Update",
-        image: "img/news/news-5.jpg",
-        featured: false,
-        text: `
-            <p>A new interactive format has been introduced for longer news items. Each article can now be opened in a dedicated modal layout with a featured image, metadata, long-form text, and an additional gallery.</p>
-
-            <p>This gives the page a more structured and readable format, where the article text appears on the left, while the image and metadata are displayed on the right.</p>
-        `,
-        gallery: [
-            "img/news/gallery-14.jpg",
-            "img/news/gallery-15.jpg",
-            "img/news/gallery-16.jpg"
-        ]
-    },
-    {
-        id: 6,
-        title: "Additional photo documentation prepared for upcoming publications",
-        date: "13.03.2026",
-        category: "Gallery",
-        image: "img/news/news-6.jpg",
-        featured: false,
-        text: `
-            <p>Additional photo documentation has been prepared for future project publications. These visual materials are intended to support upcoming reports, story-based articles, and environmental updates.</p>
-
-            <p>The news section will continue to expand as more materials are prepared and uploaded.</p>
-        `,
-        gallery: [
-            "img/news/gallery-17.jpg",
-            "img/news/gallery-18.jpg"
-        ]
-    }
 ];
 
 const featuredNewsBox = document.getElementById("featuredNewsBox");
