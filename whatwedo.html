@@ -113,8 +113,8 @@
                             us, and help spread awareness about the Caspian crisis.
                             </p>
                             <div class="action-links">
-                            <a href="https://www.tiktok.com/@caspian_guardians?_r=1&_t=ZS-95CRzURUvcf" target="_blank">TikTok</a>
-                            <a href="https://www.instagram.com/caspian_guardians?igsh=enB5ZXpqNjVxb3k5&utm_source=qr" target="_blank">Instagram</a>
+                            <a href="https://www.tiktok.com/@caspian_guardians?_r=1&_t=ZS-95CRzURUvcf" target="_blank" rel="noopener noreferrer">TikTok</a>
+                            <a href="https://www.instagram.com/caspian_guardians?igsh=enB5ZXpqNjVxb3k5&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a>
                             </div>
                         </div>
                         </article>
@@ -280,7 +280,7 @@
                             but actively help solve it.
                             </p>
                             <div class="action-links">
-                            <a href="https://t.me/caspianguardians" target="_blank">Telegram</a>
+                            <a href="https://t.me/caspianguardians" target="_blank" rel="noopener noreferrer">Telegram</a>
                             </div>
                         </div>
                         </article>
@@ -290,47 +290,24 @@
                 </div>
             </div>
             </section>
+
             <section id="test-section" class="eco-test">
                 <div class="test-container">
-                    <h2>How much do you impact the Caspian?</h2>
-                    <p>Answer a few questions and find out your environmental impact.</p>
+                    <h2>What is your Caspian eco profile?</h2>
+                    <p>Answer honestly and discover how your daily habits impact the environment.</p>
 
-                    <form id="quizForm">
-                    
-                    <div class="question">
-                        <p>1. How often do you use plastic bottles?</p>
-                        <label><input type="radio" name="q1" value="2"> Every day</label>
-                        <label><input type="radio" name="q1" value="1"> Sometimes</label>
-                        <label><input type="radio" name="q1" value="0"> Rarely / never</label>
+                    <div class="progress-bar">
+                        <div id="progress"></div>
                     </div>
 
-                    <div class="question">
-                        <p>2. Do you throw trash into bins?</p>
-                        <label><input type="radio" name="q2" value="0"> Always</label>
-                        <label><input type="radio" name="q2" value="1"> Sometimes</label>
-                        <label><input type="radio" name="q2" value="2"> Rarely</label>
-                    </div>
+                    <form id="quizForm"></form>
 
-                    <div class="question">
-                        <p>3. Do you try to save water?</p>
-                        <label><input type="radio" name="q3" value="0"> Yes</label>
-                        <label><input type="radio" name="q3" value="1"> Sometimes</label>
-                        <label><input type="radio" name="q3" value="2"> No</label>
-                    </div>
-
-                    <div class="question">
-                        <p>4. Have you ever participated in cleanups?</p>
-                        <label><input type="radio" name="q4" value="0"> Yes</label>
-                        <label><input type="radio" name="q4" value="1"> Once</label>
-                        <label><input type="radio" name="q4" value="2"> Never</label>
-                    </div>
-
-                    <button type="submit" class="test-btn">See my result</button>
-                    </form>
+                    <button type="button" id="nextBtn" class="test-btn">Next</button>
 
                     <div id="result" class="result-box hidden"></div>
                 </div>
             </section>
+
             <section class="we-section" id="we-section">
                 <div class="we-container">
                     <div class="we-head">
@@ -444,6 +421,7 @@
                 </div>
             </section>
     </main>
+
     <script>
         const levelButtons = document.querySelectorAll('.level-btn');
         const levelPanels = document.querySelectorAll('.level-panel');
@@ -460,42 +438,170 @@
             });
         });
     </script>
+
     <script>
-        document.getElementById("quizForm").addEventListener("submit", function(e) {
-        e.preventDefault();
-
-        let total = 0;
-        let questions = ["q1", "q2", "q3", "q4"];
-
-        for (let q of questions) {
-            let answer = document.querySelector(`input[name="${q}"]:checked`);
-            if (!answer) {
-            alert("Please answer all questions!");
-            return;
+        const questions = [
+            {
+                q: "How often do you use plastic bottles?",
+                a: [
+                    { text: "Every day", score: 2 },
+                    { text: "Sometimes", score: 1 },
+                    { text: "Rarely / never", score: 0 }
+                ]
+            },
+            {
+                q: "Do you throw trash into bins?",
+                a: [
+                    { text: "Always", score: 0 },
+                    { text: "Sometimes", score: 1 },
+                    { text: "Rarely", score: 2 }
+                ]
+            },
+            {
+                q: "Do you try to save water?",
+                a: [
+                    { text: "Yes", score: 0 },
+                    { text: "Sometimes", score: 1 },
+                    { text: "No", score: 2 }
+                ]
+            },
+            {
+                q: "Have you ever participated in cleanups?",
+                a: [
+                    { text: "Yes, regularly", score: 0 },
+                    { text: "Once or twice", score: 1 },
+                    { text: "Never", score: 2 }
+                ]
+            },
+            {
+                q: "Do you try to reduce plastic use in daily life?",
+                a: [
+                    { text: "Yes, actively", score: 0 },
+                    { text: "Sometimes", score: 1 },
+                    { text: "No", score: 2 }
+                ]
+            },
+            {
+                q: "Do you remind others not to litter or waste water?",
+                a: [
+                    { text: "Yes", score: 0 },
+                    { text: "Sometimes", score: 1 },
+                    { text: "No", score: 2 }
+                ]
+            },
+            {
+                q: "How do you usually behave near the sea, rivers, or nature areas?",
+                a: [
+                    { text: "Carefully and responsibly", score: 0 },
+                    { text: "Normally, but I do not always think about it", score: 1 },
+                    { text: "I do not pay much attention", score: 2 }
+                ]
             }
-            total += parseInt(answer.value);
+        ];
+
+        let currentQuestion = 0;
+        let totalScore = 0;
+
+        const quizForm = document.getElementById("quizForm");
+        const nextBtn = document.getElementById("nextBtn");
+        const resultBox = document.getElementById("result");
+        const progressBar = document.getElementById("progress");
+
+        function renderQuestion() {
+            const current = questions[currentQuestion];
+
+            quizForm.innerHTML = `
+                <div class="question">
+                    <p>${currentQuestion + 1}. ${current.q}</p>
+                    ${current.a.map(answer => `
+                        <label>
+                            <input type="radio" name="quiz-answer" value="${answer.score}">
+                            ${answer.text}
+                        </label>
+                    `).join("")}
+                </div>
+            `;
+
+            progressBar.style.width = `${(currentQuestion / questions.length) * 100}%`;
+
+            if (currentQuestion === questions.length - 1) {
+                nextBtn.textContent = "See my result";
+            } else {
+                nextBtn.textContent = "Next";
+            }
         }
 
-        let resultBox = document.getElementById("result");
-        resultBox.classList.remove("hidden");
+        function showResult() {
+            quizForm.style.display = "none";
+            nextBtn.style.display = "none";
+            progressBar.style.width = "100%";
+            resultBox.classList.remove("hidden");
 
-        if (total <= 2) {
-            resultBox.innerHTML = `
-            <strong>Low Damage 🌱</strong><br>
-            Great job! You are already helping protect the Caspian.
-            `;
-        } else if (total <= 5) {
-            resultBox.innerHTML = `
-            <strong>Moderate Damage ⚖️</strong><br>
-            You're doing okay, but there’s room to improve.
-            `;
-        } else {
-            resultBox.innerHTML = `
-            <strong>High Damage ⚠️</strong><br>
-            Your habits are harming the environment. Time to change!
-            `;
+            if (totalScore <= 4) {
+                resultBox.innerHTML = `
+                    <strong>Eco Guardian 🌿</strong><br><br>
+                    Your habits already help protect the Caspian and the environment around you.<br><br>
+                    <ul>
+                        <li>Keep your eco habits strong</li>
+                        <li>Join local activities and cleanups</li>
+                        <li>Encourage others to do the same</li>
+                    </ul>
+                    <button type="button" class="test-btn" onclick="restartQuiz()">Retake test</button>
+                `;
+            } else if (totalScore <= 9) {
+                resultBox.innerHTML = `
+                    <strong>On the Way 🌊</strong><br><br>
+                    You are doing some good things already, but there is still room to improve.<br><br>
+                    <ul>
+                        <li>Reduce single-use plastic more often</li>
+                        <li>Save water more consistently</li>
+                        <li>Turn small actions into daily habits</li>
+                    </ul>
+                    <button type="button" class="test-btn" onclick="restartQuiz()">Retake test</button>
+                `;
+            } else {
+                resultBox.innerHTML = `
+                    <strong>High Impact ⚠️</strong><br><br>
+                    Your current habits may put more pressure on the environment than you think.<br><br>
+                    <ul>
+                        <li>Start with simple daily changes</li>
+                        <li>Throw waste away properly every time</li>
+                        <li>Use less plastic and save more water</li>
+                    </ul>
+                    <button type="button" class="test-btn" onclick="restartQuiz()">Retake test</button>
+                `;
+            }
         }
+
+        nextBtn.addEventListener("click", function () {
+            const selected = document.querySelector('input[name="quiz-answer"]:checked');
+
+            if (!selected) {
+                alert("Please choose an answer before continuing.");
+                return;
+            }
+
+            totalScore += parseInt(selected.value, 10);
+            currentQuestion++;
+
+            if (currentQuestion < questions.length) {
+                renderQuestion();
+            } else {
+                showResult();
+            }
         });
+
+        function restartQuiz() {
+            currentQuestion = 0;
+            totalScore = 0;
+            quizForm.style.display = "block";
+            nextBtn.style.display = "inline-block";
+            resultBox.classList.add("hidden");
+            resultBox.innerHTML = "";
+            renderQuestion();
+        }
+
+        renderQuestion();
     </script>
 </body>
 </html>
