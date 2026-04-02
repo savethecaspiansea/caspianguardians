@@ -826,3 +826,49 @@ body {
         height: 54px;
     }
 }
+
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #dcebe6;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+#progress {
+  height: 100%;
+  width: 0%;
+  background: #1c6a58;
+  transition: width 0.3s ease;
+}
+
+.question label {
+  display: block;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  background: #f2f7f5;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.question label:hover {
+  background: #d9ebe6;
+}
+
+.result-box ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.result-box button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  border: none;
+  background: #1c6a58;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
