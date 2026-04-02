@@ -37,6 +37,7 @@ Stay informed. Stay connected with Caspian Guardians.</p>
         `,
         gallery: [
             "img/news/Screenshot (1259).png",
+            "img/news/Screenshot (1261).png",
         ]
     },
 ];
