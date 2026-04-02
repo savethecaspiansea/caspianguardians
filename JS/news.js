@@ -22,7 +22,7 @@ Join the conversation and become part of the movement.</p>
     {
         id: 2,
         title: "Caspian Guardians Introduces News Section on the Official Website",
-        date: "2.04.2026",
+        date: "02.04.2026",
         category: "Uptade",
         image: "img/news/Screenshot (1259).png",
         featured: true,
