@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Umid Qurbanli">
+    <meta name="description" content="Caspian Guardians News">
+    <meta name="keywords" content="Caspian Sea, News, Caspian Guardians, Azerbaijan, Ecology">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="icon" href="img/NewLogoFixed.png">
+
+    <title>Caspian Guardians – News</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="img/NewLogoFixed.png" alt="Caspian Guardians logo">
+                <span class="logo-text">Caspian Guardians</span>
+            </a>
+
+            <nav class="top-buttons">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="whatwedo.html">What We Do</a>
+                <a href="guide.html">Our Eco Guide</a>
+                <a href="news.html" class="active-top-button">News</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="news-hero-section">
+            <div class="container news-hero-grid">
+                <div class="news-hero-left">
+                    <span class="section-label">Caspian Guardians Newsroom</span>
+                    <h1>NEWS</h1>
+                    <p>
+                        Here you can find the latest updates connected to the Caspian Sea,
+                        our project, environmental activities, research, media materials,
+                        and important developments.
+                    </p>
+                </div>
+
+                <div class="news-hero-right" id="featuredNewsBox">
+                    <!-- Самая актуальная новость через JS -->
+                </div>
+            </div>
+        </section>
+
+        <section class="news-feed-section">
+            <div class="container">
+                <div class="news-section-title">
+                    <h2>Latest Updates</h2>
+                    <p>Current stories, project materials, and environmental news</p>
+                </div>
+
+                <div class="news-grid" id="newsGrid">
+                    <!-- Карточки через JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="news-modal" id="newsModal">
+        <div class="news-modal-overlay" id="newsModalOverlay"></div>
+
+        <div class="news-modal-content">
+            <button class="news-modal-close" id="newsModalClose" aria-label="Close">&times;</button>
+
+            <div class="news-modal-scroll">
+                <div class="news-modal-main" id="newsModalMain">
+                    <!-- Контент новости через JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-left">
+                <p class="footer-description">
+                    Caspian Guardians is a project dedicated to raising awareness about the environmental issues affecting the Caspian Sea. Our mission is to inform, educate, and inspire action to protect this vital ecosystem.
+                </p>
+            </div>
+
+            <div class="footer-center">
+                <h3>Authors</h3>
+                <ul>
+                    <li>Umid Qurbanli</li>
+                    <li>Emin Rzayev</li>
+                    <li>Rauf Novruzlu</li>
+                    <li>Hamid Shakhbazov</li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <div class="made-by">
+                    <img src="img/VerixLogo.png" alt="Verix logo">
+                    <p>© Made by Verix</p>
+                </div>
+                <p class="founded">Founded by Umid Qurbanli</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Caspian Guardians. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="JS/news.js"></script>
+</body>
+</html>
