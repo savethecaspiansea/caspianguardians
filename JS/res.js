@@ -1,160 +1,62 @@
 const researchData = [
-    {
-        id: 1,
-        title: "Visible Shoreline Change in the Northern Caspian Sea",
-        date: "12.06.2026",
-        category: "Satellite Observation",
-        status: "Draft Research",
-        authors: ["Umid Qurbanli", "Emin Rzayev"],
-        readingTime: "8 min read",
-        image: "img/research/research-1.jpg",
-        featured: true,
-        tags: ["Caspian Sea", "Shoreline Change", "Satellite Imagery"],
-        abstract:
-            "This research examines visible changes in the northern Caspian Sea coastline using satellite-based visual comparison and project observations. The aim is to document environmental change in an accessible research format.",
-        sections: [
-            {
-                heading: "Introduction",
-                image: "img/research/research-1-intro.jpg",
-                caption: "Example introduction image. Replace this with your actual research image.",
-                body: `
-                    <p>The Caspian Sea is undergoing visible environmental change, especially in shallow northern areas where coastline retreat can be observed through satellite imagery and long-term visual comparison.</p>
+   {
+    id: 1,
+    title: "When a Sea Disappears: The Economic Cost of the Caspian’s Decline",
+    date: "12.06.2026",
+    category: "Socio-Economic Analysis",
+    status: "Published",
+    authors: ["Hamid Shahbazov"],
+    readingTime: "5 min read",
+    image: "img/NewLogoFixed.png",
+    featured: true,
+    tags: ["Caspian Sea", "Economy", "Infrastructure", "Investment Risk", "Environmental Decline"],
+    abstract:
+        "This research examines the economic consequences of the Caspian Sea’s decline, arguing that falling water levels are not only an environmental issue but also a growing economic risk for transport, fisheries, infrastructure, investment, and regional stability.",
+    sections: [
+        {
+            heading: "Main Article",
+            image: "",
+            caption: "",
+            body: `
+                <p>The drying of the Caspian Sea is still most often described in environmental terms—falling water levels, stressed ecosystems, declining biodiversity. That framing is understandable, but it is no longer sufficient. What is unfolding is not only an ecological shift; it is a process that is already reshaping the economic stability of the region.</p>
 
-                    <p>This research is prepared as part of the Caspian Guardians project. Its purpose is to collect, organize, and present evidence in a format that can be understood by students, researchers, environmental activists, and the general public.</p>
-                `
-            },
-            {
-                heading: "Observation Method",
-                image: "img/research/research-1-method.jpg",
-                caption: "Satellite comparison, field materials, or map screenshots can be placed here.",
-                body: `
-                    <p>The observation method is based on comparing visual materials from different years. The focus is not only on numeric indicators, but also on clear visual evidence of coastline movement, drying zones, and exposed land.</p>
+                <p>For decades, the Caspian has functioned as more than a body of water. It has been a foundation for entire sectors: transport and logistics, fisheries, energy systems, and coastal infrastructure. Economic activity has been built around it, relying—often implicitly—on one key assumption: that the natural environment would remain broadly stable over time. That assumption is now being tested.</p>
 
-                    <ul>
-                        <li>Satellite images are compared by year.</li>
-                        <li>Visible drying zones are marked and described.</li>
-                        <li>Field or map-based references can be added where available.</li>
-                    </ul>
-                `
-            },
-            {
-                heading: "Preliminary Findings",
-                image: "img/research/research-1-findings.jpg",
-                caption: "Use this area for a photo, chart, or map connected to the findings.",
-                body: `
-                    <p>Preliminary observations suggest that the northeastern and northern parts of the Caspian Sea show the most visible surface-area changes. These areas require continued monitoring because shallow waters react strongly to long-term water-level decline.</p>
+                <p>In recent decades, the sea level has declined noticeably. In some areas, the shoreline has retreated by significant distances. These changes are no longer abstract. They are beginning to affect the practical workings of the economy. Port operations increasingly face depth constraints, requiring dredging and adjustment. Logistics routes become less predictable. Coastal infrastructure, designed for long-term use, requires earlier-than-expected adaptation. At the same time, pressure on fish stocks is affecting local incomes, employment, and the resilience of coastal communities.</p>
 
-                    <p>Further work should include more precise measurements, source comparison, and references to scientific datasets.</p>
-                `
-            }
-        ],
-        references: [
-            {
-                label: "NASA Worldview",
-                url: "https://worldview.earthdata.nasa.gov/"
-            },
-            {
-                label: "Caspian Guardians internal visual archive",
-                url: ""
-            }
-        ],
-        pdf: "",
-        gallery: [
-            "img/research/research-1-gallery-1.jpg",
-            "img/research/research-1-gallery-2.jpg",
-            "img/research/research-1-gallery-3.jpg",
-            "img/research/research-1-gallery-4.jpg"
-        ]
-    },
-    {
-        id: 2,
-        title: "Microplastic Pollution and Coastal Waste on the Caspian Shoreline",
-        date: "05.06.2026",
-        category: "Environmental Analysis",
-        status: "In Progress",
-        authors: ["Umid Qurbanli", "Rauf Novruzlu"],
-        readingTime: "6 min read",
-        image: "img/research/research-2.jpg",
-        featured: false,
-        tags: ["Pollution", "Microplastics", "Coastal Waste"],
-        abstract:
-            "This publication explains how visible coastal waste can become part of a wider marine pollution problem, including microplastic fragmentation and possible effects on aquatic organisms.",
-        sections: [
-            {
-                heading: "Background",
-                image: "img/research/research-2-background.jpg",
-                caption: "Coastal waste documentation image.",
-                body: `
-                    <p>Waste found along the Caspian shoreline is not only a local aesthetic problem. Plastic materials left near the coast may eventually enter the water and break down into smaller fragments over time.</p>
+                <p>At first glance, these may appear as separate challenges. But taken together, they reflect a single underlying process. Environmental change is not occurring alongside the economy—it is altering the conditions under which the economy functions. When the physical environment shifts, so do cost structures, risk profiles, and the time horizons of decision-making.</p>
 
-                    <p>These fragments can become microplastics, which are difficult to remove and may enter aquatic food chains.</p>
-                `
-            },
-            {
-                heading: "Why This Matters",
-                image: "",
-                caption: "",
-                body: `
-                    <p>The Caspian Sea supports fishing, recreation, coastal communities, and unique ecosystems. Pollution therefore becomes both an environmental and social issue.</p>
+                <p>One of the most important aspects of this shift is that economic consequences emerge before environmental limits are fully reached. Financial systems are highly sensitive to uncertainty. When foundational parameters—such as water depth, infrastructure accessibility, or resource stability—become less predictable, this uncertainty begins to influence investment behavior. Projects require more cautious evaluation, capital may become more selective, and long-term planning loses some of its reliability.</p>
 
-                    <ul>
-                        <li>Plastic waste can fragment into microplastics.</li>
-                        <li>Marine organisms may ingest small particles.</li>
-                        <li>Pollution can affect public perception of coastal areas.</li>
-                    </ul>
-                `
-            }
-        ],
-        references: [
-            {
-                label: "Caspian Guardians field notes",
-                url: ""
-            }
-        ],
-        pdf: "",
-        gallery: [
-            "img/research/research-2-gallery-1.jpg",
-            "img/research/research-2-gallery-2.jpg",
-            "img/research/research-2-gallery-3.jpg"
-        ]
-    },
-    {
-        id: 3,
-        title: "Educational Visualisation of Caspian Sea Water-Level Decline",
-        date: "29.05.2026",
-        category: "Project Report",
-        status: "Published",
-        authors: ["Umid Qurbanli", "Hamid Shakhbazov"],
-        readingTime: "5 min read",
-        image: "img/research/research-3.jpg",
-        featured: false,
-        tags: ["Education", "Data Visualisation", "Awareness"],
-        abstract:
-            "This report describes how visual tools, timelines, and charts can help students and general audiences understand the long-term decline of the Caspian Sea water level.",
-        sections: [
-            {
-                heading: "Purpose of the Visualisation",
-                image: "img/research/research-3-purpose.jpg",
-                caption: "Example of visual education material.",
-                body: `
-                    <p>Environmental data can be difficult for the general public to understand when it is presented only as numbers. Visualisation helps convert complex trends into accessible explanations.</p>
+                <p>In this context, the traditional separation between environmental and economic policy becomes increasingly difficult to sustain. Environmental initiatives are often treated as part of a social or ESG agenda—important, but secondary to core economic activity. The situation in the Caspian challenges this distinction.</p>
 
-                    <p>The project uses timelines, image comparison, and graphs to make the decline easier to see and discuss.</p>
-                `
-            }
-        ],
-        references: [
-            {
-                label: "Caspian Guardians website visual materials",
-                url: ""
-            }
-        ],
-        pdf: "",
-        gallery: [
-            "img/research/research-3-gallery-1.jpg",
-            "img/research/research-3-gallery-2.jpg"
-        ]
-    }
+                <p>Investments in environmental resilience are directly linked to economic stability. Efforts such as ecosystem restoration, responsible water management, and the adaptation of infrastructure to changing conditions do not simply address environmental concerns. They reduce systemic risk, support asset value, and contribute to a more predictable investment environment.</p>
+
+                <p>The absence of such investments also carries consequences. It does not merely delay solutions; it increases the likelihood of more severe economic disruptions in the future. In this sense, environmental inaction becomes an economic liability.</p>
+
+                <p>Recognizing this relationship requires a broader analytical approach. The Caspian must be understood as a system in which environmental and economic processes are deeply interconnected. Decisions cannot be made in isolation—whether across sectors or within individual projects. A more integrated perspective is necessary, one that accounts for long-term change and its cross-sectoral implications.</p>
+
+                <p>This kind of perspective also reflects a deeper intellectual discipline: the ability to work with complexity, to connect seemingly separate variables, and to acknowledge the limits of available data while still acting responsibly. It is an approach grounded not in simplified answers, but in careful, system-level understanding.</p>
+
+                <p>Today, the Caspian Sea represents more than a regional environmental concern. It illustrates how changes in the natural environment can redefine economic logic. Ignoring this connection risks the gradual accumulation of structural vulnerabilities. Acknowledging it, on the other hand, opens the possibility for more resilient and forward-looking development.</p>
+
+                <p>The question, therefore, is no longer whether environmental investment is necessary. The question is whether financial institutions, policymakers, and international organizations are prepared to treat such investment as central to economic strategy rather than peripheral to it.</p>
+
+                <p>The future of the Caspian will not be determined by environmental awareness alone, but by the decisions that follow from it. Meaningful progress will require coordinated action—across governments, industries, and global institutions—grounded in the understanding that environmental sustainability and economic stability are not competing priorities, but parts of the same system.</p>
+
+                <p>In that sense, the preservation of the Caspian is not simply about protecting nature. It is about sustaining the economic foundations that depend on it.</p>
+            `
+        }
+    ],
+    references: [
+        {
+            label: "Caspian Guardians Research Publication",
+            url: ""
+        }
+    ],
+    pdf: "",
+    gallery: []
+},
 ];
 
 const featuredResearchBox = document.getElementById("featuredResearchBox");
