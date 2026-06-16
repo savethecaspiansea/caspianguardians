@@ -7,7 +7,7 @@ const researchData = [
     status: "Published",
     authors: ["Hamid Shahbazov"],
     readingTime: "5 min read",
-    image: "img/NewLogoFixed.png",
+    image: "img/resimg/resimg1.jpg",
     featured: true,
     tags: ["Caspian Sea", "Economy", "Infrastructure", "Investment Risk", "Environmental Decline"],
     abstract:
