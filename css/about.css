@@ -24,7 +24,6 @@ img {
     margin: 0 auto;
 }
 
-/* Header */
 .site-header {
     background: linear-gradient(135deg, #0d1b2a, #1b263b);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -89,7 +88,6 @@ img {
     box-shadow: 0 8px 24px rgba(47, 128, 237, 0.28);
 }
 
-/* Shared */
 section {
     padding: 90px 0;
 }
@@ -129,7 +127,6 @@ h2 {
     max-width: 760px;
 }
 
-/* Hero */
 .about-hero {
     background:
         linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)),
@@ -143,7 +140,6 @@ h2 {
     font-size: 1.15rem;
 }
 
-/* Mission */
 .split-section {
     display: grid;
     grid-template-columns: 1.4fr 0.8fr;
@@ -174,7 +170,7 @@ h2 {
     justify-content: center;
 }
 
-/* What we do */
+
 .what-we-do-section {
     background: linear-gradient(180deg, #f7fbff 0%, #eef5fb 100%);
 }
@@ -214,7 +210,7 @@ h2 {
     color: #334155;
 }
 
-/* Why it matters */
+
 .why-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -241,17 +237,17 @@ h2 {
     margin-bottom: 16px;
 }
 
-/* Team */
 .about-us {
     background: #f8f8f8;
     text-align: center;
 }
 
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
 .team-card {
@@ -312,7 +308,7 @@ h2 {
     line-height: 1.5;
 }
 
-/* Socials */
+
 .social-section {
     margin-top: 42px;
     padding: 32px;
@@ -342,7 +338,7 @@ h2 {
     background: #2f80ed;
 }
 
-/* CTA */
+
 .cta-section {
     background: linear-gradient(135deg, #0d1b2a, #1e3a5f);
 }
@@ -378,7 +374,7 @@ h2 {
     background: #1f6fd6;
 }
 
-/* Footer */
+
 .footer-left {
     max-width: 600px;
     width: 100%;
@@ -457,7 +453,7 @@ h2 {
     color: #aaa;
 }
 
-/* Responsive */
+
 @media (max-width: 992px) {
     .split-section,
     .cards-grid,
