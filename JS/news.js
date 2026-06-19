@@ -16,7 +16,7 @@ const newsData = [
             <p>The database will continue to grow as new information, cleanup reports, and verified user submissions are added over time.</p>
         `,
         gallery: [
-            "img/news/dataplatform.webp"
+            "img/news/data.png"
         ]
         ```
         
