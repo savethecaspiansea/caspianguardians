@@ -6,22 +6,19 @@ const newsData = [
         category: "Update",
         image: "img/news/dataplatform.webp",
         featured: true,
-        text: ` <p>Caspian Guardians is pleased to announce the launch of its official environmental database — a new digital platform created to collect, organize, and present data related to Caspian beaches, cleanup activities, ecological risks, and volunteer impact.</p>
-        
-        ```
+        text: `
+            <p>Caspian Guardians is pleased to announce the launch of its official environmental database — a new digital platform created to collect, organize, and present data related to Caspian beaches, cleanup activities, ecological risks, and volunteer impact.</p>
+
             <p>The database allows users to explore information about beach conditions, pollution levels, cleanup results, environmental indicators, and community contributions in one interactive system. It is designed to make ecological data more accessible, structured, and useful for volunteers, researchers, partners, and the wider public.</p>
-        
+
             <p>This launch marks an important step in the development of Caspian Guardians as a data-driven environmental initiative. By combining technology, public participation, and ecological monitoring, the platform aims to support more informed decisions and encourage stronger community involvement in protecting the Caspian Sea.</p>
-        
+
             <p>The database will continue to grow as new information, cleanup reports, and verified user submissions are added over time.</p>
         `,
         gallery: [
             "img/news/data.png"
         ]
-        ```
-        
-    },
-    
+    }
 ];
 
 const featuredNewsBox = document.getElementById("featuredNewsBox");
