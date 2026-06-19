@@ -4,7 +4,7 @@ const newsData = [
         title: "Caspian Guardians Launches Its Official Environmental Database",
         date: "01.04.2026",
         category: "Update",
-        image: "img/news/Database.webp",
+        image: "img/news/dataplatform.webp",
         featured: true,
         text: ` <p>Caspian Guardians is pleased to announce the launch of its official environmental database — a new digital platform created to collect, organize, and present data related to Caspian beaches, cleanup activities, ecological risks, and volunteer impact.</p>
         
@@ -16,32 +16,12 @@ const newsData = [
             <p>The database will continue to grow as new information, cleanup reports, and verified user submissions are added over time.</p>
         `,
         gallery: [
-            "img/news/database-launch.jpg"
+            "img/news/dataplatform.webp"
         ]
         ```
         
     },
-    {
-        id: 2,
-        title: "Caspian Guardians Introduces News Section on the Official Website",
-        date: "02.04.2026",
-        category: "Update",
-        image: "img/news/Screenshot (1259).png",
-        featured: true,
-        text: `
-            <p>Caspian Guardians is proud to announce the launch of a dedicated News section on its official website.
-
-This new section will serve as a reliable source of timely updates, key announcements, and insights related to the team’s activities and ongoing initiatives. It is designed to keep the community, partners, and stakeholders informed about the latest developments and milestones.
-
-By introducing this feature, Caspian Guardians continues to strengthen transparency and communication, ensuring that important information is easily accessible to everyone.
-
-Stay informed. Stay connected with Caspian Guardians.</p>
-        `,
-        gallery: [
-            "img/news/Screenshot (1259).png",
-            "img/news/Screenshot (1261).png",
-        ]
-    },
+    
 ];
 
 const featuredNewsBox = document.getElementById("featuredNewsBox");
