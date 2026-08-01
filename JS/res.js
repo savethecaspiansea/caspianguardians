@@ -302,6 +302,167 @@ const researchData = [
     pdf: "",
     gallery: []
 },
+{
+    id: 3,
+    title: "The Impact of Solid Waste Contamination on the Evaporation Rate of Water: An Experimental Investigation",
+    date: "01.08.2026",
+    category: "Experimental Environmental Research",
+    status: "Published",
+    authors: ["Hamid Shahbazov", "Umid Qurbanli", "Rauf Novruzlu"],
+    readingTime: "5 min read",
+    image: "img/resimg/solid-waste-evaporation-experiment-cover.jpg",
+    featured: false,
+    tags: [
+        "Water Evaporation",
+        "Solid Waste",
+        "Water Pollution",
+        "Thermal Radiation",
+        "Experimental Research",
+        "Plastic Waste",
+        "Metal Waste",
+        "Environmental Monitoring"
+    ],
+    abstract:
+        "This paper presents an empirical investigation into the influence of solid wastes on the thermal evaporation dynamics of shallow water. Using everyday household items as physical surrogates for environmental debris, the evaporation rate of clean water was compared with that of contaminated water under controlled localized thermal radiation. After two minutes of heating at a fixed distance of 5 cm, the contaminated sample showed a measurable reduction in water depth from 2.00 cm to 1.95 cm, while the reduction in the clean-water trial remained approximately 0-0.01 cm. The study suggests that heat absorption and physical obstruction by solid waste may alter the thermodynamic behavior of shallow water.",
+    sections: [
+        {
+            heading: "Introduction",
+            image: "",
+            caption: "",
+            body: `
+                <p><strong>Date of experiment:</strong> July 16, 2026</p>
+
+                <p>Water evaporation is a fundamental component of the global hydrological cycle, regulating temperature, atmospheric moisture, and ecological stability. In recent decades, anthropogenic pollution has introduced massive amounts of solid waste into open water systems, ranging from microplastics to macroscopic debris. While chemical contamination of water has been widely studied, the physical and thermodynamic consequences of macroscopic solid waste on localized evaporation remain relatively unexplored.</p>
+
+                <p>This study aims to simulate and analyze how the presence of physical debris affects the heat absorption and evaporation of a shallow water body. By creating an experimental setup using standardized household objects to mimic plastic and metallic pollutants, the changes in water depth under direct thermal radiation were measured. The underlying hypothesis suggests that solid contaminants alter the surface area, heat capacity, and thermal conductivity of the liquid medium, thereby modifying its evaporation rate.</p>
+            `
+        },
+        {
+            heading: "Materials and Experimental Setup",
+            image: "img/resimg/experimental-waste-surrogates.jpg",
+            caption: "Solid-waste surrogates used in the experiment: a black plastic hair comb, a black rubber hair elastic, and a grey metallic souvenir.",
+            body: `
+                <p>To ensure reproducibility within a domestic environment, the experimental design utilized the following specialized and surrogate equipment:</p>
+
+                <ul>
+                    <li><strong>Thermal Radiation Source:</strong> A standard household electric steam iron, used dry, to provide a localized, constant high-temperature environment.</li>
+                    <li><strong>Liquid Container:</strong> A shallow ceramic plate, providing a flat-bottomed vessel to ensure uniform depth distribution.</li>
+                    <li><strong>Physical Contaminants (Waste Surrogates):</strong> A black plastic hair comb representing rigid synthetic polymers, a black rubber hair elastic representing flexible elastomeric waste, and a grey metallic souvenir representing heavy metal debris and high-conductivity solid waste.</li>
+                    <li><strong>Measurement Tools:</strong> A standard 30 cm ruler with 1 mm graduation intervals for depth monitoring.</li>
+                    <li><strong>Documentation Device:</strong> A mobile smartphone camera positioned to record the continuous sequence of both experimental trials for accurate time-lapse and observational verification.</li>
+                    <li><strong>Working Medium:</strong> Tap water at ambient room temperature.</li>
+                </ul>
+            `
+        },
+        {
+            heading: "Methodology",
+            images: [
+                {
+                    src: "img/resimg/clean-water-control-before-heating.jpg",
+                    caption: "Phase 1, State 1.0: clean-water control sample before the two-minute heating interval."
+                },
+                {
+                    src: "img/resimg/contaminated-water-before-heating.jpg",
+                    caption: "Phase 2, State 2.0: contaminated-water sample containing the three solid-waste surrogates before heating."
+                }
+            ],
+            body: `
+                <p>The research methodology was divided into two distinct phases to evaluate the evaporation characteristics of clean versus contaminated water.</p>
+
+                <p><strong>Phase 1 (Control Group - State 1.0 to 1.1):</strong> A shallow layer of clean water was poured into the plate, achieving an initial depth of 1.8 cm. For the baseline trial, the initial operational depth was established. The iron was preheated and then manually suspended at a fixed height of exactly 5 cm directly above the water's surface. This position was maintained continuously for exactly 2.0 minutes (120 seconds). The entire process was recorded continuously on the smartphone camera to track surface activity and vapor generation. After 2.0 minutes, the iron was removed, and the final depth was measured using the 30 cm ruler.</p>
+
+                <p><strong>Phase 2 (Contaminated Group - State 2.0 to 2.1):</strong> The plate was cleaned, and water was introduced to establish an initial depth of exactly 2.0 cm. Three solid-waste surrogates - the black rubber hair elastic, the black plastic hair comb, and the grey metallic souvenir - were submerged within the water layer. The iron was again suspended at a height of 5 cm above the contaminated water surface for a duration of 2.0 minutes while being recorded on video. Following the heating interval, the final water level was recorded.</p>
+            `
+        },
+        {
+            heading: "Results and Analysis",
+            images: [
+                {
+                    src: "img/resimg/clean-water-control-after-heating.jpg",
+                    caption: "Phase 1, State 1.1: clean-water control sample after two minutes of heating."
+                },
+                {
+                    src: "img/resimg/contaminated-water-after-heating.jpg",
+                    caption: "Phase 2, State 2.1: contaminated-water sample after two minutes of heating, with a recorded final depth of approximately 1.95 cm."
+                }
+            ],
+            body: `
+                <p>The quantitative observations from both experimental phases revealed distinct differences in water loss. In the control group (State 1.0 transitioning to State 1.1), the water volume experienced an unmeasurable reduction, leaving a final depth of approximately 1.8 cm. This represents standard evaporation under unobstructed thermal radiation.</p>
+
+                <p>In the contaminated group (State 2.0 transitioning to State 2.1), despite the initial depth starting at 2.0 cm, the final depth after the same thermal treatment was measured at approximately 1.95 cm. The total depth reduction in the contaminated water was significantly easier to observe than in the clean water.</p>
+
+                <div class="research-table-wrapper">
+                    <table class="research-table">
+                        <thead>
+                            <tr>
+                                <th>Experimental Phase</th>
+                                <th>Initial State ID</th>
+                                <th>Final State ID</th>
+                                <th>Initial Depth</th>
+                                <th>Final Depth</th>
+                                <th>Net Evaporation Loss</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Phase 1 (Clean Water)</td>
+                                <td>1.0</td>
+                                <td>1.1</td>
+                                <td>1.80 cm</td>
+                                <td>1.80 cm</td>
+                                <td>Approximately 0-0.01 cm from peak</td>
+                            </tr>
+                            <tr>
+                                <td>Phase 2 (Contaminated Water)</td>
+                                <td>2.0</td>
+                                <td>2.1</td>
+                                <td>2.00 cm</td>
+                                <td>1.95 cm</td>
+                                <td>0.05 cm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p><em>Table 1. Recorded water-depth changes during the clean-water and contaminated-water experimental phases.</em></p>
+
+                <p>The explanation proposed in the research is that the metal and dark plastic heat faster than clean water, resulting in higher evaporation rates, and remain hot for a longer time, keeping these rates high even after the heat source is removed.</p>
+            `
+        },
+        {
+            heading: "Practical Applications and Environmental Significance",
+            image: "",
+            caption: "",
+            body: `
+                <p>The findings of this research suggest a practical ecological application. By monitoring localized evaporation rates in open environments, environmental monitoring agencies could investigate the density of solid-waste pollution in specific aquatic zones.</p>
+
+                <p>According to the proposed application, water bodies with high concentrations of floating or submerged debris may exhibit anomalous, increased evaporation rates compared with clean baseline zones under identical meteorological conditions. Developing remote-sensing models based on this evaporative discrepancy could offer a cost-effective, macroscopic method for identifying heavily polluted water sectors globally.</p>
+            `
+        },
+        {
+            heading: "Conclusion",
+            image: "",
+            caption: "",
+            body: `
+                <p>This experiment suggests that macro-solid-waste contaminants increase the evaporation rate of shallow water. Under a controlled thermal stimulus of two minutes, clean water retained a higher relative depth, remaining at approximately 1.80 cm from an initial 1.80 cm, compared with the accelerated evaporation observed in the contaminated-water trial.</p>
+
+                <p>The contaminated sample declined from 2.00 cm to approximately 1.95 cm. The research presents this result as a simple physical model illustrating a broader, hidden environmental impact of solid waste on localized microclimates and hydrological patterns.</p>
+            `
+        }
+    ],
+    references: [
+        {
+            label: "Supplementary Video - Control Experiment (State 1.0 to 1.1)",
+            url: "https://drive.google.com/file/d/1YBcEG7FhKBc4SDrFQj1dNC9q36VAObTG/view?usp=sharing"
+        },
+        {
+            label: "Supplementary Video - Contaminated Experiment (State 2.0 to 2.1)",
+            url: "https://drive.google.com/file/d/12jlnhcFP6vJXAREic_HNu2Y4OMxX-Itz/view?usp=sharing"
+        }
+    ],
+    pdf: "",
+    gallery: []
+},
 ];
 
 const featuredResearchBox = document.getElementById("featuredResearchBox");
