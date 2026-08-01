@@ -299,7 +299,7 @@ const researchData = [
             url: ""
         }
     ],
-    pdf: "pdf/declining-water-levels-rising-costs-middle-corridor.pdf",
+    pdf: "",
     gallery: []
 },
 ];
