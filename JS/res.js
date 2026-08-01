@@ -310,7 +310,7 @@ const researchData = [
     status: "Published",
     authors: ["Hamid Shahbazov", "Umid Qurbanli", "Rauf Novruzlu"],
     readingTime: "5 min read",
-    image: "img/resimg/solid-waste-evaporation-experiment-cover.jpg",
+    image: "img/resimg/all.aviv",
     featured: false,
     tags: [
         "Water Evaporation",
