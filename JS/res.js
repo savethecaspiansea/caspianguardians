@@ -66,7 +66,7 @@ const researchData = [
     authors: ["Hamid Shahbazov"],
     organization: "Caspian Guardians",
     readingTime: "",
-    image: "img/resimg/resdw2.png",
+    image: "img/resimg/resdw2.jpeg",
     featured: true,
     tags: [],
     abstract: "",
@@ -110,14 +110,14 @@ const researchData = [
                 <p>North of the port, the shipping route is squeezed between water that has retreated by more than one kilometer on one side and the expanding landmass of Gil Island on the other.</p>
 
                 <div class="research-section-image">
-                    <img src="img/resimg/resdw1.png" alt="">
+                    <img src="img/resimg/resdw1.jpeg" alt="">
                     <p class="research-image-caption"><strong>Figure 1. Satellite image of the Port of Alat (2016), before significant shoreline retreat.</strong></p>
                     <p class="research-image-caption"><em>The green line shows the measured width of the navigable water between the land and Gil Island(1900m).</em></p>
                     <p class="research-image-caption"><strong>Source: Copernicus Sentinel Hub</strong></p>
                 </div>
 
                 <div class="research-section-image">
-                    <img src="img/resimg/resdw2.png" alt="">
+                    <img src="img/resimg/resdw2.jpeg" alt="">
                     <p class="research-image-caption"><strong>Figure 2. Satellite image of the Port of Alat (2026), showing shoreline retreat and expansion of exposed land around the navigation channel.</strong></p>
                     <p class="research-image-caption"><em>The green line shows the measured width of the remaining navigable water between the newly exposed land and Gil Island(290m).</em></p>
                     <p class="research-image-caption"><strong>Source: Copernicus Sentinel Hub</strong></p>
@@ -136,7 +136,7 @@ const researchData = [
                 <p>By providing an alternative to traditional trade routes, the Middle Corridor enhances regional resilience and international connectivity. It also supports economic growth, investment, and industrial development in participating countries. The Port of Alat plays a central role in this network by ensuring efficient cargo handling and multimodal transport. Consequently, disruptions in its operation affect not only Azerbaijan, they become issues for global logistics, increasing economic costs and geopolitical pressure across Eurasia.</p>
 
                 <div class="research-section-image">
-                    <img src="img/resimg/resdw3.png" alt="">
+                    <img src="img/resimg/resdw3.jpeg" alt="">
                     <p class="research-image-caption"><strong>FIGURE 3. TRANS-CASPIAN INTERNATIONAL TRANSPORT ROUTE (MIDDLE CORRIDOR)</strong></p>
                     <p class="research-image-caption">(From Trans-Caspian International Transport Route Website: https://middlecorridor.com/en/)</p>
                 </div>
@@ -152,13 +152,13 @@ const researchData = [
                 <p>The impacts of this problem are clearly visible if we look at the seaports of Kazakhstan, which already faced it. According to Anuar Nemyshov, Head of the Commercial Operations Department at the Aktau International Sea Trade Port, due to a 1.7 meters decline in sea level of the Caspian Sea during the last 18 years, at the Port of Aktau, dry cargo vessels are underloaded by 600–1,300 tonnes, while oil tankers are underloaded by 2,000–2,500 tonnes(Lada.kz, 2025).</p>
 
                 <div class="research-section-image">
-                    <img src="img/resimg/resdw4.png" alt="">
+                    <img src="img/resimg/resdw4.jpeg" alt="">
                     <p class="research-image-caption"><strong>Figure 4. Satellite image of the Port of Aktau (2016), before significant shoreline retreat.</strong></p>
                     <p class="research-image-caption"><strong>Source: Copernicus Sentinel Hub</strong></p>
                 </div>
 
                 <div class="research-section-image">
-                    <img src="img/resimg/resdw5.png" alt="">
+                    <img src="img/resimg/resdw5.jpeg" alt="">
                     <p class="research-image-caption"><strong>Figure 5. Satellite image of the Port of Aktau (2026), showing shoreline retreat and expansion of exposed land.</strong></p>
                     <p class="research-image-caption"><strong>Source: Copernicus Sentinel Hub</strong></p>
                 </div>
