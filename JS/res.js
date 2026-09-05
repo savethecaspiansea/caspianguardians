@@ -60,32 +60,24 @@ const researchData = [
 {
     id: 2,
     title: "Declining Water Levels, Rising Costs: The Economic Consequences of the Caspian Sea Retreat for the Middle Corridor",
-    date: "01.08.2026",
-    category: "Economic & Transport Analysis",
-    status: "Published",
+    date: "",
+    category: "",
+    status: "",
     authors: ["Hamid Shahbazov"],
-    readingTime: "9 min read",
-    image: "img/resimg/alat-port-navigation-channel-2026.png",
+    organization: "Caspian Guardians",
+    readingTime: "",
+    image: "img/resimg/resdw2.png",
     featured: true,
-    tags: [
-        "Caspian Sea",
-        "Middle Corridor",
-        "Maritime Transport",
-        "Port of Alat",
-        "Port of Aktau",
-        "Trade Logistics",
-        "Economic Impact",
-        "Shoreline Retreat"
-    ],
-    abstract:
-        "This research examines how the decline of the Caspian Sea is affecting the Trans-Caspian International Transport Route, commonly known as the Middle Corridor. Using satellite imagery from 2016 and 2026 together with official transport and trade data, the study identifies substantial shoreline retreat near the ports of Alat and Aktau, narrowing navigable areas, reducing vessel cargo capacity, and increasing transportation costs. The findings indicate that continued sea-level decline could weaken the efficiency and economic competitiveness of one of Eurasia’s most strategically important trade corridors.",
+    tags: [],
+    abstract: "",
+    showMainImage: false,
     sections: [
         {
             heading: "Introduction",
             image: "",
             caption: "",
             body: `
-                <p>The Caspian Sea is the world's largest enclosed inland body of water and supports one of Eurasia's most strategically important transport corridors. In recent decades, however, the rapid decline in its water level due to the decrease in Volga River flow and global warming has begun to threaten maritime navigation and international trade.</p>
+                <p>The Caspian Sea is the world's largest enclosed inland body of water and supports one of Eurasia's most strategically important transport corridors. In recent decades, however, the rapid decline in its water level due to the decrease in Volga river flow and the global warming has begun to threaten maritime navigation and international trade.</p>
 
                 <p>For Azerbaijan, the Port of Alat is of immense economic importance because it supports one of the country's most important industries—oil production, a cornerstone of the national economy and the main source of income. Developing new oil fields and maintaining existing ones requires a steady supply of specialized drilling materials and chemical additives, such as barite. Barite is an essential component of drilling fluids used during oil and gas exploration. Without a stable supply of barite, drilling operations become more expensive and less efficient. According to UN Comtrade (2025), more than 60% of Azerbaijan's imported barite comes from Kazakhstan.</p>
 
@@ -93,11 +85,13 @@ const researchData = [
 
                 <p>The problem is that ships cannot operate without sufficient water. Despite continuous dredging efforts, access to Azerbaijan's main commercial port—Alat—is becoming increasingly restricted. No matter how deep the port itself is, the navigation channels leading to it are gradually being blocked by newly exposed land as the Caspian Sea retreats.</p>
 
-                <p>Thus, the environmental crisis creates a closed loop: logistics disruptions involving barite caused by shallow waters directly increase oil extraction costs, which in turn affect Azerbaijan's state budget, on which logistics expenditures also depend.</p>
+                <p>Thus, the environmental crisis creates a closed loop: logistics disruptions with barite caused by shallow waters directly increase oil extraction costs, which in turn form Azerbaijan's state budget, on which, in their turn, logistics expenditures depend.</p>
 
-                <p><strong>Research Question:</strong> To what extent does the decline of the Caspian Sea level affect the efficiency and economic competitiveness of the Trans-Caspian International Transport Route?</p>
+                <p><strong>Research Question:</strong></p>
+                <p><em>To what extent does the decline of the Caspian Sea level affect the efficiency and economic competitiveness of the Trans-Caspian International Transport Route?</em></p>
 
-                <p><strong>Hypothesis:</strong> If the Caspian Sea level continues to decline, navigational constraints are likely to reduce cargo capacity, increase transportation costs, and weaken the competitiveness of the Middle Corridor.</p>
+                <p><strong>Hypothesis:</strong></p>
+                <p><em>If the Caspian Sea level continues to decline, navigational constraints are likely to reduce cargo capacity, increase transportation costs, and weaken the competitiveness of the Middle Corridor.</em></p>
             `
         },
         {
@@ -105,59 +99,71 @@ const researchData = [
             image: "",
             caption: "",
             body: `
-                <p>This study combines satellite image analysis with secondary data obtained from official and publicly available sources. Satellite imagery from Copernicus Sentinel Hub (2016 and 2026) was used to compare shoreline positions and measure changes over a decade in the navigable water area near the Port of Alat and the Port of Aktau. Distance measurements were performed using the Sentinel Hub measuring tools.</p>
-
-                <p>To evaluate the economic implications of declining sea levels, data from the Port of Aktau, APA Economics, UN Comtrade, and other official publications were analyzed and compared with the satellite observations.</p>
+                <p>This study combines satellite image analysis with secondary data obtained from official and publicly available sources. Satellite imagery from Copernicus Sentinel Hub (2016 and 2026) was used to compare shoreline positions and measure changes during a decade in the navigable water area near the Port of Alat and the Port of Aktau. Distance measurements were performed using the Sentinel Hub measuring tools. To evaluate the economic implications of declining sea levels, data from the Port of Aktau, APA Economics, UN Comtrade, and other official publications were analyzed and compared with the satellite observations.</p>
             `
         },
         {
             heading: "Retreat of the Caspian Sea Near the Port of Alat",
-            images: [
-                {
-                    src: "img/resimg/alat-port-navigation-channel-2016.png",
-                    caption: "Figure 1. Satellite image of the Port of Alat in 2016, before significant shoreline retreat. The green line shows the measured width of the navigable water between the mainland and Gil Island: 1,900 m. Source: Copernicus Sentinel Hub."
-                },
-                {
-                    src: "img/resimg/alat-port-navigation-channel-2026.png",
-                    caption: "Figure 2. Satellite image of the Port of Alat in 2026, showing shoreline retreat and expansion of exposed land around the navigation channel. The green line shows the remaining navigable width between the newly exposed land and Gil Island: 290 m. Source: Copernicus Sentinel Hub."
-                }
-            ],
+            image: "",
+            caption: "",
             body: `
                 <p>North of the port, the shipping route is squeezed between water that has retreated by more than one kilometer on one side and the expanding landmass of Gil Island on the other.</p>
+
+                <div class="research-section-image">
+                    <img src="img/resimg/resdw1.png" alt="">
+                    <p class="research-image-caption"><strong>Figure 1. Satellite image of the Port of Alat (2016), before significant shoreline retreat.</strong></p>
+                    <p class="research-image-caption"><em>The green line shows the measured width of the navigable water between the land and Gil Island(1900m).</em></p>
+                    <p class="research-image-caption"><strong>Source: Copernicus Sentinel Hub</strong></p>
+                </div>
+
+                <div class="research-section-image">
+                    <img src="img/resimg/resdw2.png" alt="">
+                    <p class="research-image-caption"><strong>Figure 2. Satellite image of the Port of Alat (2026), showing shoreline retreat and expansion of exposed land around the navigation channel.</strong></p>
+                    <p class="research-image-caption"><em>The green line shows the measured width of the remaining navigable water between the newly exposed land and Gil Island(290m).</em></p>
+                    <p class="research-image-caption"><strong>Source: Copernicus Sentinel Hub</strong></p>
+                </div>
 
                 <p>As a result, vessels must either reduce their cargo loads to decrease their draft or take longer, less efficient routes to avoid running aground. Both options significantly increase transportation costs and delay the movement of goods. However, Azerbaijan is not the only country affected by this crisis.</p>
             `
         },
         {
             heading: "Regional Importance of the Port of Alat",
-            image: "img/resimg/trans-caspian-middle-corridor-route-map.png",
-            caption: "Figure 3. Trans-Caspian International Transport Route (Middle Corridor). Source: Trans-Caspian International Transport Route official website.",
+            image: "",
+            caption: "",
             body: `
-                <p>The Port of Alat is a strategic hub of the Trans-Caspian International Transport Route, also known as the Middle Corridor, one of the world's most important emerging trade corridors. As the main maritime gateway of Azerbaijan, it connects Central Asia with the South Caucasus, Türkiye, and Europe across the Caspian Sea.</p>
+                <p>The Port of Alat is a strategic hub of the Trans-Caspian International Transport Route (Middle Corridor), one of the world's most important emerging trade corridors. As the main maritime gateway of Azerbaijan, it connects Central Asia with the South Caucasus, Türkiye, and Europe across the Caspian Sea. The corridor is widely regarded as the modern successor to the historic Silk Road, facilitating the movement of goods between East and West. It strengthens economic cooperation, reduces transportation time, and diversifies global supply chains.</p>
 
-                <p>The corridor is widely regarded as the modern successor to the historic Silk Road, facilitating the movement of goods between East and West. It strengthens economic cooperation, reduces transportation time, and diversifies global supply chains.</p>
+                <p>By providing an alternative to traditional trade routes, the Middle Corridor enhances regional resilience and international connectivity. It also supports economic growth, investment, and industrial development in participating countries. The Port of Alat plays a central role in this network by ensuring efficient cargo handling and multimodal transport. Consequently, disruptions in its operation affect not only Azerbaijan, they become issues for global logistics, increasing economic costs and geopolitical pressure across Eurasia.</p>
 
-                <p>By providing an alternative to traditional trade routes, the Middle Corridor enhances regional resilience and international connectivity. It also supports economic growth, investment, and industrial development in participating countries. The Port of Alat plays a central role in this network by ensuring efficient cargo handling and multimodal transport.</p>
+                <div class="research-section-image">
+                    <img src="img/resimg/resdw3.png" alt="">
+                    <p class="research-image-caption"><strong>FIGURE 3. TRANS-CASPIAN INTERNATIONAL TRANSPORT ROUTE (MIDDLE CORRIDOR)</strong></p>
+                    <p class="research-image-caption">(From Trans-Caspian International Transport Route Website: https://middlecorridor.com/en/)</p>
+                </div>
 
-                <p>Consequently, disruptions in its operation affect not only Azerbaijan; they become issues for global logistics, increasing economic costs and geopolitical pressure across Eurasia. As illustrated in Figure 3, the Port of Alat is the principal maritime gateway connecting Central Asia with the South Caucasus and Europe. Any disruption to its operation therefore has implications for the efficiency and competitiveness of the entire Middle Corridor.</p>
+                <p>As illustrated in Figure 3, the Port of Alat is the principal maritime gateway connecting Central Asia with the South Caucasus and Europe. Consequently, any disruption to its operation has implications for the efficiency and competitiveness of the entire Middle Corridor.</p>
             `
         },
         {
             heading: "Evidence from Kazakhstan",
-            images: [
-                {
-                    src: "img/resimg/aktau-port-shoreline-2016.png",
-                    caption: "Figure 4. Satellite image of the Port of Aktau in 2016, before significant shoreline retreat. Source: Copernicus Sentinel Hub."
-                },
-                {
-                    src: "img/resimg/aktau-port-shoreline-2026.png",
-                    caption: "Figure 5. Satellite image of the Port of Aktau in 2026, showing shoreline retreat and expansion of exposed land. The measured shoreline displacement exceeds 800 m. Source: Copernicus Sentinel Hub."
-                }
-            ],
+            image: "",
+            caption: "",
             body: `
-                <p>The impacts of this problem are clearly visible at the seaports of Kazakhstan, which have already faced its consequences. According to Anuar Nemyshov, Head of the Commercial Operations Department at the Aktau International Sea Trade Port, a 1.7-meter decline in the Caspian Sea level over the last 18 years has caused dry cargo vessels at the Port of Aktau to be underloaded by 600–1,300 tonnes, while oil tankers are underloaded by 2,000–2,500 tonnes (Lada.kz, 2025).</p>
+                <p>The impacts of this problem are clearly visible if we look at the seaports of Kazakhstan, which already faced it. According to Anuar Nemyshov, Head of the Commercial Operations Department at the Aktau International Sea Trade Port, due to a 1.7 meters decline in sea level of the Caspian Sea during the last 18 years, at the Port of Aktau, dry cargo vessels are underloaded by 600–1,300 tonnes, while oil tankers are underloaded by 2,000–2,500 tonnes(Lada.kz, 2025).</p>
 
-                <p>The scale of this problem becomes visible when the satellite images in Figures 4 and 5 are compared. Over the ten years since 2016, the shoreline of the Caspian Sea near the Port of Aktau has moved by more than 800 meters.</p>
+                <div class="research-section-image">
+                    <img src="img/resimg/resdw4.png" alt="">
+                    <p class="research-image-caption"><strong>Figure 4. Satellite image of the Port of Aktau (2016), before significant shoreline retreat.</strong></p>
+                    <p class="research-image-caption"><strong>Source: Copernicus Sentinel Hub</strong></p>
+                </div>
+
+                <div class="research-section-image">
+                    <img src="img/resimg/resdw5.png" alt="">
+                    <p class="research-image-caption"><strong>Figure 5. Satellite image of the Port of Aktau (2026), showing shoreline retreat and expansion of exposed land.</strong></p>
+                    <p class="research-image-caption"><strong>Source: Copernicus Sentinel Hub</strong></p>
+                </div>
+
+                <p>The scale of this problem becomes visible when we look at the Satellite Images (Figure 4, Figure 5). Over the last 10 years, since 2016, the shoreline of the Caspian Sea near the port of Aktau has moved by over 800 meters.</p>
             `
         },
         {
@@ -165,17 +171,15 @@ const researchData = [
             image: "",
             caption: "",
             body: `
-                <p>According to the Aktau International Sea Trade Port, oil tankers with a carrying capacity of 12,000 tonnes can now load a maximum of only 9,000 tonnes because of the declining water level in the Caspian Sea. A similar situation has developed for dry cargo vessels. While a container ship previously carried up to 350 twenty-foot equivalent units (TEUs), it can now transport no more than 280 TEUs (Haqqin.az).</p>
+                <p>According to the Aktau International Sea Trade Port, oil tankers with a carrying capacity of 12,000 tonnes can now load a maximum of only 9,000 tonnes due to the declining water level in the Caspian Sea. A similar situation has developed for dry cargo vessels. While a container ship previously carried up to 350 twenty-foot equivalent units (TEUs), it can now transport no more than 280 TEUs(haqqin.az). As a result, the cost of dry cargo transportation has increased by approximately 20%, while the cost of oil transportation has risen by as much as 25%. These higher transportation costs are likely to increase the prices of goods traded through the Middle Corridor, reducing the competitiveness of this route and placing additional pressure on the economies of the countries that depend on it.</p>
 
-                <p>As a result, the cost of dry cargo transportation has increased by approximately 20%, while the cost of oil transportation has risen by as much as 25%. These higher transportation costs are likely to increase the prices of goods traded through the Middle Corridor, reducing the competitiveness of this route and placing additional pressure on the economies of the countries that depend on it.</p>
-
-                <p>According to APA Economics (2025), the decrease in water depth at Kazakhstan's Kuryk Port has also reduced the transport capacity of Ro-Pax ferries operating between Baku Port in Alat and Kuryk. Tariyel Mirzayev, Deputy Chairman of the Azerbaijan Caspian Shipping Company (ASCO), stated during the “Middle Corridor via the Caspian Sea” forum in Baku that the transportation of railway tanks had decreased by 22%, while the transportation of wagons had decreased by 10%.</p>
+                <p>Also, according to APA Economics(2025), as a result of the decrease in the water depth at Kazakhstan's Kurik port, the transport capacity of the "Ro-Pax" type ferries between the Baku Port (Alat) and this port has decreased. Specifically, the transportation of railway tanks has decreased by 22%, and the transportation of wagons has decreased by 10%, Tariyel Mirzayev, Deputy Chairman of the Azerbaijan Caspian Shipping Company (ASCO), said during the "Middle Corridor via the Caspian Sea" forum held in Baku, APA-Economics reports.</p>
 
                 <div class="research-table-wrapper">
                     <table class="research-table">
                         <thead>
                             <tr>
-                                <th>Physical Change</th>
+                                <th>Physical Changes</th>
                                 <th>2016</th>
                                 <th>2026</th>
                                 <th>Change</th>
@@ -184,29 +188,29 @@ const researchData = [
                         <tbody>
                             <tr>
                                 <td>Alat navigation channel</td>
-                                <td>1,900 m</td>
+                                <td>1900 m</td>
                                 <td>290 m</td>
                                 <td>−85%</td>
                             </tr>
                             <tr>
                                 <td>Aktau shoreline position</td>
-                                <td>0 m</td>
+                                <td>0m</td>
                                 <td>&gt;800 m</td>
-                                <td>+&gt;800 m</td>
+                                <td>+&gt;800m</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
-                <p><em>Table 1. Physical changes near the ports of Alat and Aktau since 2016.</em></p>
+                <p><em>Table 1: Physical Changes in Ports of Alat and Aktau since 2016.</em></p>
 
-                <p>The narrowing of the navigable water area illustrated in Table 1 forces vessels either to navigate shallow waters or to move through a strictly constrained channel where the depth has fallen below critical levels.</p>
+                <p>The narrowing of the navigable water area illustrated in Table 1 forces vessels to either navigate shallow waters or move through a strictly constrained channel where the depth has fallen below critical levels.</p>
 
                 <div class="research-table-wrapper">
                     <table class="research-table">
                         <thead>
                             <tr>
-                                <th>Economic Indicator</th>
+                                <th>Economic Indicators</th>
                                 <th>2016</th>
                                 <th>2026</th>
                                 <th>Change</th>
@@ -235,9 +239,9 @@ const researchData = [
                     </table>
                 </div>
 
-                <p><em>Table 2. Economic changes in the efficiency of the Trans-Caspian International Transport Route since 2016.</em></p>
+                <p><em>Table 2: Economic Changes in Efficiency of Trans-Caspian International Transport Route (Middle Corridor) since 2016.</em></p>
 
-                <p><strong>Sources:</strong> Aktau International Sea Trade Port, APA Economics, Copernicus Sentinel Hub, Haqqin.az, Lada.kz, and calculations by the author.</p>
+                <p><strong>Sources:</strong> <em>Aktau International Sea Trade Port, APA Economics, Copernicus Sentinel Hub, Haqqin.az, Lada.kz, calculations by the author.</em></p>
 
                 <p>Tables 1 and 2 demonstrate that environmental changes have translated into measurable operational and economic losses. While the physical narrowing of navigation routes is substantial, its economic consequences—including reduced cargo capacity and increased transportation costs—may have even greater long-term impacts on the competitiveness of the Middle Corridor.</p>
             `
@@ -249,9 +253,9 @@ const researchData = [
             body: `
                 <p>The findings of this study indicate that the declining water level of the Caspian Sea is already affecting maritime transport and the efficiency of the Trans-Caspian International Transport Route. However, several limitations should be considered when interpreting these results.</p>
 
-                <p>First, this research cannot accurately predict the future condition of the Middle Corridor or the long-term economic situation of the countries that depend on it. Although the analysis demonstrates significant changes between 2016 and 2026, it would be incorrect to assume that the Caspian Sea will continue to retreat at the same rate over the next decade. Recent studies suggest that the decline in sea level is accelerating as a result of climate change and reduced inflow from the Volga River. Consequently, future changes may occur either more rapidly or differently than those observed during the period examined in this research.</p>
+                <p>First, this research cannot accurately predict the future condition of the Middle Corridor or the long-term economic situation of the countries that depend on it. Although the analysis demonstrates significant changes between 2016 and 2026, it would be incorrect to assume that the Caspian Sea will continue to retreat at the same rate over the next decade. Recent studies suggest that the decline in the sea level is accelerating as a result of climate change and reduced inflow from the Volga River. Consequently, future changes may occur either more rapidly or differently than those observed during the period examined in this research.</p>
 
-                <p>Second, the satellite measurements used in this study represent changes in shoreline position rather than direct measurements of water depth. While shoreline retreat provides clear evidence of ongoing environmental changes, local bathymetry, dredging operations, and engineering interventions may also influence navigation conditions at individual ports.</p>
+                <p>Second, the satellite measurements used in this study represent changes in shoreline position rather than direct measurements of water depth. While shoreline retreat provides clear evidence of the ongoing environmental changes, local bathymetry, dredging operations, and engineering interventions may also influence navigation conditions at individual ports.</p>
 
                 <p>Finally, the economic impacts discussed in this research are based on currently available data from official sources and should be regarded as evidence of existing trends rather than precise forecasts. Future transportation costs, cargo capacity, and trade volumes will also depend on technological developments, infrastructure investments, government policies, and international cooperation among the countries participating in the Middle Corridor.</p>
 
@@ -263,42 +267,31 @@ const researchData = [
             image: "",
             caption: "",
             body: `
-                <p>The findings of this research demonstrate that the decline in the Caspian Sea level is no longer a distant environmental concern but an ongoing challenge with significant economic and geopolitical consequences. Satellite imagery, measurements, and evidence from the ports of Alat, Aktau, and Kuryk show that falling water levels are already restricting maritime navigation, reducing vessel cargo capacity, increasing transportation costs, and weakening the efficiency of the Trans-Caspian International Transport Route, or Middle Corridor.</p>
+                <p>The findings of this research demonstrate that the decline in the Caspian Sea level is no longer a distant environmental concern but an ongoing challenge with significant economic and geopolitical consequences. Satellite imagery, measurements, and evidence from the ports of Alat, Aktau, and Kuryk show that falling water levels are already restricting maritime navigation, reducing vessel cargo capacity, increasing transportation costs, and weakening the efficiency of the Trans-Caspian International Transport Route (Middle Corridor).</p>
 
-                <p>The effects of this problem extend far beyond Azerbaijan. Because the Middle Corridor serves as a major trade route connecting Asia and Europe, disruptions to maritime transport across the Caspian Sea affect a wide range of countries, including Azerbaijan, China, Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, Turkmenistan, Armenia, Georgia, Türkiye, and European countries. Higher logistics costs, lower transport efficiency, and reduced corridor competitiveness influence regional trade, supply chains, and economic development throughout Eurasia.</p>
+                <p>The effects of this problem extend far beyond Azerbaijan. Because the Middle Corridor serves as a major trade route connecting Asia and Europe, disruptions to maritime transport across the Caspian Sea affect a wide range of countries, including Azerbaijan, China, Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, Turkmenistan, Armenia, Georgia, Türkiye and countries of Europe. Higher logistics costs, lower transport efficiency, and reduced corridor competitiveness influence regional trade, supply chains, and economic development throughout Eurasia.</p>
 
-                <p>If the Caspian Sea continues to decline, these challenges are likely to intensify, making international cooperation increasingly important. Investments in port infrastructure, navigation channels, and continuous environmental monitoring, together with coordinated action among the Caspian states and the countries that rely on the Middle Corridor, will be essential to preserve the reliability and long-term sustainability of this strategically important transport corridor.</p>
+                <p>If the Caspian Sea continues to decline, these challenges are likely to intensify, making international cooperation increasingly important. Investments in port infrastructure, navigation channels, and continuous environmental monitoring, together with coordinated action among the Caspian states and the countries that rely on the Middle Corridor, will be essential to preserve the reliability and long-term sustainability of this strategically important transport corridor. Protecting the navigability of the Caspian Sea is therefore not only an environmental priority but also an economic necessity for the future of Eurasian trade.</p>
+            `
+        },
+        {
+            heading: "References",
+            image: "",
+            caption: "",
+            body: `
+                <p>APA Economics. (2025). <em>Decrease in Caspian Sea water level affected transportation.</em><br><a href="https://en.apa.az/infrastructure/decrease-in-caspian-sea-water-level-affected-transportation-461996" target="_blank" rel="noopener noreferrer">https://en.apa.az/infrastructure/decrease-in-caspian-sea-water-level-affected-transportation-461996</a></p>
 
-                <p>Protecting the navigability of the Caspian Sea is therefore not only an environmental priority but also an economic necessity for the future of Eurasian trade.</p>
+                <p>Copernicus Sentinel Hub. (2026). <em>EO Browser satellite imagery.</em><br><a href="https://browser.dataspace.copernicus.eu/?zoom=5&lat=50.16282&lng=20.78613&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18MAlz0BFGKwwPuMkAZGAqYAm1V45RNmp%2FTeluASJpP%2FjMi7N6ZXUNy3ot4Vjvb3Tk7D7sdJlrvkT%2BNDavXf3frXoK84L8XIdTzjTmi5RKey69ZuXF2DM%2BZ&datasetId=S2_L2A_CDAS&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE" target="_blank" rel="noopener noreferrer">https://browser.dataspace.copernicus.eu/?zoom=5&lat=50.16282&lng=20.78613&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18MAlz0BFGKwwPuMkAZGAqYAm1V45RNmp%2FTeluASJpP%2FjMi7N6ZXUNy3ot4Vjvb3Tk7D7sdJlrvkT%2BNDavXf3frXoK84L8XIdTzjTmi5RKey69ZuXF2DM%2BZ&datasetId=S2_L2A_CDAS&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE</a></p>
+
+                <p>Lada.kz. (2025). <em>Снижение уровня моря влечет за собой недогруз судов в порту Актау</em><br><a href="https://www.lada.kz/aktau_news/business/137447-snizhenie-urovnia-moria-vlechet-za-soboi-nedogruz-sudov-v-portu-aktau.html" target="_blank" rel="noopener noreferrer">https://www.lada.kz/aktau_news/business/137447-snizhenie-urovnia-moria-vlechet-za-soboi-nedogruz-sudov-v-portu-aktau.html</a></p>
+
+                <p>Trans-Caspian International Transport Route. (2026). <em>Official website.</em><br><a href="https://middlecorridor.com/en/" target="_blank" rel="noopener noreferrer">https://middlecorridor.com/en/</a></p>
+
+                <p>UN Comtrade. (2025). <em>United Nations Commodity Trade Statistics Database.</em><br><a href="https://comtradeplus.un.org/" target="_blank" rel="noopener noreferrer">https://comtradeplus.un.org/</a></p>
             `
         }
     ],
-    references: [
-        {
-            label: "APA Economics (2025) — Decrease in Caspian Sea water level affected transportation",
-            url: "https://en.apa.az/infrastructure/decrease-in-caspian-sea-water-level-affected-transportation-461996"
-        },
-        {
-            label: "Copernicus Sentinel Hub (2026) — EO Browser satellite imagery",
-            url: "https://browser.dataspace.copernicus.eu/"
-        },
-        {
-            label: "Lada.kz (2025) — Снижение уровня моря влечет за собой недогруз судов в порту Актау",
-            url: "https://www.lada.kz/aktau_news/business/137447-snizhenie-urovnia-moria-vlechet-za-soboi-nedogruz-sudov-v-portu-aktau.html"
-        },
-        {
-            label: "Trans-Caspian International Transport Route (2026) — Official website",
-            url: "https://middlecorridor.com/en/"
-        },
-        {
-            label: "UN Comtrade (2025) — United Nations Commodity Trade Statistics Database",
-            url: "https://comtradeplus.un.org/"
-        },
-        {
-            label: "Haqqin.az — Source cited in the research; full article URL was not provided in the PDF",
-            url: ""
-        }
-    ],
+    references: [],
     pdf: "",
     gallery: []
 },
